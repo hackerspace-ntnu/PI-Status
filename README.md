@@ -1,5 +1,5 @@
 # PI-Status
-Keeps track of raspberry-Pies and their IP-adresses
+Keeps track of raspberry-Pies and their IP-adresses. Used to display the current Ip-adress on a website using a .json file.
 
 #How to use
 1. pip install rsa
