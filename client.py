@@ -40,4 +40,4 @@ def main(host,server_port):
 
 	connection.close()
 
-main('178.62.156.170',800)
+main('',800)
