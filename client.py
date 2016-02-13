@@ -3,6 +3,7 @@ import socket
 import json
 import subprocess
 from uuid import getnode as get_mac
+from adress import adress, port
 
 #doesnt work if not connected directly to internet via cable.
 def get_ip():
@@ -40,4 +41,4 @@ def main(host,server_port):
 
 	connection.close()
 
-main('',800)
+main(adress,port)
